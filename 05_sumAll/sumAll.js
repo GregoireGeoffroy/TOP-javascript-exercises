@@ -12,7 +12,6 @@ const sumAll = function(a, b) {
     while (a <= b) {
         sum += a;
         a++;
-        
       }
       return sum
 
