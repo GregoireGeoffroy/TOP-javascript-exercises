@@ -11,7 +11,7 @@ const sum = function(array) {
 };
 
 const multiply = function(array) {
-  return array.reduce((produce, currrent) => total + produce, 0);
+  return array.reduce((produce, current) => produce * current);
 };
 
 const power = function() {
